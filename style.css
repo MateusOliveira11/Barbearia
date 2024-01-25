@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("/assets/Barbearia.png");
+    background-size: cover;
+    display: flex;
+}
+
+header {
+    background: transparent;
+    text-align: right;
+    padding: 20px;
+    width: 96rem;
+}
+
+a {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 25px;
+    text-decoration: none;
+}
+
+.botao-laranja {
+    background-color: #fbb034;
+    color: black;
+    font-weight: bold;
+    height: 2.8rem;
+    width: 8.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin: 0 50px 0 25px;
+}
+
+.wrapper {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 35px;
+    width: 33rem;
+}
+
+h3 {
+    color: #fbb034;
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+p {
+    color: #9a9a9a;
+    font-size: 20px;
+    font-weight: 300;
+    width: 25rem;
+    margin-top: 30px;
+}
+
+.botao-laranja-2 {
+    margin-top: 4rem;
+    margin-left: 1px;
+}
+
+.botao-transparente {
+    height: 2.8rem;
+    width: 8.5rem;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
